@@ -1,38 +1,63 @@
-.App {
+.appcontainer{
+  background-image: linear-gradient(#E75084, #FFCD76);
+  width: 100%;
+  padding-bottom: 32px;
+}
+.input-div{
+  margin: auto;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.input{
+  width: 62.5rem;
+  height: 34px;
+  margin-top: 12px;
+  padding-left: 14px;
+  border: none;
+  border-radius: 4px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.left-list{
+  background-color: white;
+  display:flex;
+  margin-top: 12px;
+  border-radius: 4px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.left-list p{
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-left: 12px;
+}
+.left-name{
+margin-top: 0;
+}
+.left-list img{
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+/* .right-list{
+  background-color: grey;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  width: 50%;
+  margin-top: 12px;
+  margin-right: 34px;
+  border-radius: 4px;
+}
+.right-list p{
+  font-size: 14px;
+  margin-bottom: 4px;
+  margin-left: 12px;
+}
+.right-name{
+margin-top: 0;
+}
+.right-list img{
+  margin-left: 12px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+} */
+.searchlist{
+  display: grid;
+  grid-template-columns: 31.25rem 31.25rem;
+  column-gap: 0.75rem;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }
